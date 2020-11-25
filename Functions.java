@@ -524,7 +524,7 @@ public class Functions {
             }
 
             // end of guide
-            if (listOfLines.get(i).startsWith("## Great work!")) {
+            if (listOfLines.get(i).startsWith("# Great work!")) {
                 finish(listOfLines, guideName, i);
             }
 
