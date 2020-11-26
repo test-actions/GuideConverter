@@ -57,7 +57,6 @@ public class GuideConverterV2 {
 
 //          write each line into the file
             while (s.hasNextLine()) {
-                System.out.println(s.nextLine());
                 listOfLines.add(s.nextLine() + "\n");
             }
 
