@@ -40,7 +40,7 @@ public class GuideConverterV2 {
 
         try {
             //read adoc file from the open liberty guide
-            URL url = new URL("https://raw.githubusercontent.com/openliberty/" + guideName + "/" + branch + "/README.adoc");
+            URL url = new URL("https://raw.githubusercontent.com/test-actions/" + guideName + "/" + branch + "/README.adoc");
             s = new Scanner(url.openStream());
 //          ArrayList for whole text file
             ArrayList<String> listOfLines = new ArrayList<>();
